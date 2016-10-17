@@ -24,9 +24,7 @@
 	</div>
 
 	<div class="question">
-		Question 2:
-
-		Is the answer A, B, C, or D?
+		<?php echo $quiz[1]; ?>
 	</div>
 
 	<div class="answer">

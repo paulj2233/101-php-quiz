@@ -1,3 +1,9 @@
+<?php
+
+	include 'quiz.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +12,7 @@
 <body>
 
 	<div class="question">
-		Question 1:
-
-		Is the answer A, B, C, or D?
+		<?php echo $quiz[0]; ?>
 	</div>
 
 	<div class="answer">

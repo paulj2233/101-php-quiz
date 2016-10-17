@@ -2,11 +2,9 @@
 
 ---
 
-**Take a moment to describe in a detailed fashion what steps you have to take in order to add a new question to your quiz.**
+**In detail, describe what steps you have to take in order to add a new question to your quiz.**
 
-**What feels inefficient or repetitive about this process?**
-
-**Imagine we want to instead populate these questions dynamically. How might you go about doing that?**
+**Be specific and realisitic. Actually add another question to part one of this assignment and write down each step that you take.**
 
 Edit this file directly to add your response below:
 

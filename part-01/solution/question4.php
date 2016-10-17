@@ -24,13 +24,11 @@
 	</div>
 
 	<div class="question">
-		Question 4:
-
-		Is the answer A, B, C, or D?
+		<?php echo $quiz[3]; ?>
 	</div>
 
 	<div class="answer">
-		<form action="question5.php">
+		<form action="finalresult.php">
 			<input type="radio" name="answer" value="A">A<br>
 			<input type="radio" name="answer" value="B">B<br>
 			<input type="radio" name="answer" value="C">C<br>

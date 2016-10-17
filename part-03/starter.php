@@ -1,6 +1,20 @@
 <?php
 
-	include 'quiz.php';
+	$quiz = array(
+		0 => "Question 1",
+		1 => "Question 2",
+		2 => "Question 3",
+		3 => "Question 4",
+		4 => "Question 5",
+		);
+
+	$answers = array(
+		0 => "A",
+		1 => "B",
+		2 => "C",
+		3 => "D",
+		4 => "A",
+		);
 
 	if (count($_GET) == 0) {
 		$current_score = 0;
@@ -10,13 +24,13 @@
 		$current_score = (int)$_GET["current_score"];
 
 		if ($_GET["answer"] == $answers[$current_question]) {
-			$current_score += 1;
+			// increment the current score by 1.
 		}
 
-		$current_question += 1;
+		// incremement the current question by 1.
 	}
 
-	if ($current_question == (count($quiz))) {
+	// if ($current_question == (count($quiz))) {
 		$last_question = true;
 	} else {
 		$last_question = false;
@@ -31,7 +45,8 @@
 </head>
 <body>
 	<div class="feedback">
-		Your current score is <?php echo $current_score; ?>
+		Your current score is __________________________ 
+		<!-- Dynamically populate the score -->
 	</div>
 
 
@@ -39,13 +54,15 @@
 	
 	<?php if ($last_question) { ?>
 		<div class="final-result">
-			You've finished the quiz! Your final score is <?php echo $current_score; ?> out of 5.
+			You've finished the quiz! Your final score is _____________ out of 5.
+			<!-- Dynamically populate the score -->
 		</div>
 	<?php } else { ?>
 
 		<div class="answer">
 			<div class="question">
-				<?php echo $quiz[$current_question]; ?>
+				__________________
+				<!-- Dynamically populate the question -->
 			</div>
 
 			<form>

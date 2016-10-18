@@ -18,9 +18,7 @@
 <body>
 
 	<div class="final-result">
-		<?php 
-			echo "You've finished the quiz! Your final score is " . $current_score . " out of 4.";
-		?>
+		You've finished the quiz! Your final score is <?php echo $current_score ; ?> out of 4.
 	</div>
 
 

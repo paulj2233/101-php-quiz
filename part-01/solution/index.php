@@ -6,11 +6,11 @@
 <body>
 
 	<div class="quiz-title">
-		My Super Great Quiz
+		The Ultimate Geography Quiz
 	</div>
 
 	<div class="quiz-subtitle">
-		It's seriously super great.
+		Take this quiz to see how well you know the world.
 	</div>
 
 	<div class="start-button">

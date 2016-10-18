@@ -1,0 +1,22 @@
+body {
+	background-color: lightblue;
+}
+
+.question {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+.question-count {
+	color: white;
+	border-bottom: white
+	font-size: 12px;
+}
+
+.A .B .C .D {
+	color: white;
+	border-bottom: white;
+	margin-left: 60px;
+}
